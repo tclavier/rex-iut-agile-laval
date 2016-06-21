@@ -4,6 +4,7 @@
 \usepackage{graphics}
 \usepackage{tabularx}
 \usepackage[french]{babel}
+\usepackage[T1]{fontenc}
 
 
 %\usepackage[screen,nopanel]{pdfscreen}
@@ -20,25 +21,25 @@
   \{ \textbf{Thomas.Clavier \& Yann.Secq} \}\texttt{@univ-lille.fr}
 }
 \institute{
-  \includegraphics[height=13mm]{logo_iut_A_Lille.jpg}
-  \includegraphics[height=13mm]{Logo_Univ_de_Lille.jpg}
+  \includegraphics[height=13mm]{includes/logo_iut_A_Lille.jpg}
+  \includegraphics[height=13mm]{includes/logo_Univ_de_Lille.jpg}
 }
   
 \date{}
 
 \logo{
-    \includegraphics[width=1cm]{CC_BY_SA} 
+    \includegraphics[width=1cm]{includes/CC_BY_SA} 
 }
 
 \begin{document}
 
 \frame{\titlepage}
 
-\begin{frame}{Loi des 2 pieds : bipodocratie}
+\begin{frame}{Bipodocratie}
   \begin{columns}
     \begin{column}{0.5\textwidth}
       \begin{center}
-        \includegraphics[width=0.6\textwidth]{foots.png}      
+        \includegraphics[width=0.6\textwidth]{includes/foots.png}      
       \end{center}
     \end{column}
     \begin{column}{0.5\textwidth}
@@ -47,99 +48,140 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}{2012}
-  Journée agile des IUT, Toulouse, Lille, etc. 
-\end{frame}
-
-\begin{frame}{2013 : Expérience}
-  Premier projet agile, un groupe de S3, 3 jours.
-
-  Objectifs : 
-  \begin{itemize}
-    \item découvrir l'agilité et l'amélioration continue à travers un vrai projet : radiateur d'information, démo, rétro, PDCA
-    \item prototyper rapidement un produit web avec un serveur REST du JS, html et bootstrap.
-    \item Vérifier avec un groupe que l'activité est jouable à plus grande échelle. 
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{2013 : Déroulement}
-  \begin{itemize}
-    \item 2 encadrants pour un groupe de TP (26 étudiants).
-    \item légo4scrum : 2h
-    \item les étudiants s'organisent entre eux pour faire des équipes de 6 ou 7.
-    \item des sujets apportés par les étudiants
-    \item sprint de 2h avec démo et rétro
-    \item soutenance en amphie avec démo
-    \item rétro de groupe sur l'activité
-    \item des contraintes technique forte
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{2013 : Apprentissages}
-  \begin{itemize}
-    \item 1 enseignant pour 13 étudiants c'est très bien,
-    \item la généralisation à toute la promo est envisageable
-    \item avec le budget que nous avons ce sera 5 enseignants pour 4 groupes de TP.
-    \item plonger les étudiants dans un contexte technique innovant avec une bonne base théorique (ie. en fin d'IUT) c'est déstabilisant et très formateur. 
-    \item activité trop courte pour à la foi faire le backlog, le découper et le coder.
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{2014 : Éxpérience}
-  Fin de S4 décalé, Antoine, 1 porteur de projet externe.
-
-  Toute la promo entre la fin du S3 et le début du S4 : 5 jours du lundi au vendredi, on vole une semaine de congés
-  2 équipes sont issue de la journée entrepreneur, 5 enseignants dont 3 non agiliste.
-\end{frame}
-
-\begin{frame}{2015 : Éxperiences}
-  Début de S3, S4 décallé avec 1 premier porteur de projet, puis toute la promo à la fin du S4, du mercredi au mercredi avec 6 porteurs de projets et les GEA europe, S3 décallé.
-\end{frame}
-
 \begin{frame}{Enseignement de l'agilité à l'Université}
 Tribulations à l'Université d'un agiliste professionnel et de son compère enseignant-chercheur en quête d'une révolution de la pédagogie académique
    \begin{itemize}
      \item Pourquoi de l'agilité en DUT ?
      \item Comment tout a démarré
-     \item Bootstrap itération par itération ...
+     \item Des petits pas
      \item Et maintenant ?
    \end{itemize}
 \end{frame}
 
 \begin{frame}{Pourquoi de l'agilité en DUT}
    \begin{itemize}
-    \item DUT $\Rightarrow$ fabrique intensive de développeurs
+    \item DUT, une fabrique de développeurs
     \item Contact direct et (assez) étroit avec les réalités professionnelles
     \item Info: algorithmique et programmation, système et réseau, base de données, méthodologie et analyse
-    \item Mais enseignement académique $\Rightarrow$ silos disciplinaires :(
-    \item MAIS réforme du PPN  $\Rightarrow$ projet de semestre
+    \item Enseignement académique $\Rightarrow$ silos disciplinaires :(
+    \item Réforme du PPN en 2013 $\Rightarrow$ projet de semestre
    \end{itemize}
 \end{frame}
 
 \begin{frame}{Comment tout a démarré}
    \begin{itemize}
-     \item De l'intérêt d'un réseau national structuré ...
-     \item Les "grandes" Journées Agiles(Toulouse'12, Aix'13, Montreuil'14)
-     \item Les "petites" Journées Agiles (\textbf{Lille'13}, Lyon'14)
+     \item Un réseau national structuré ...
+     \item Les <<grandes>> Journées Agiles(Toulouse'12, Aix'13, Montreuil'14)
+     \item Les <<petites>> Journées Agiles (\textbf{Lille'13}, Lyon'14)
      \item Premier poste de PAST au département pour septembre 2013 !
-     \item Début des projets sur la lune pour Laurel et Hardy ;)
+     %\item Début des projets sur la lune pour Laurel et Hardy ;)
    \end{itemize}
 \end{frame}
 
-\begin{frame}{Année 1 (septembre 2013 à juillet 2014)}
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{includes/le-voyage-dans-la-lune-oeil.jpg}}
+\begin{frame}[plain]
+\end{frame}
+}
+
+\begin{frame}{2013-2014 : Expérience}
+  Premier projet agile, un groupe de S3, 3 jours.
+
+  Objectifs : 
   \begin{itemize}
-    \item de 96h théoriques à XXh pour l'agilité ...
-    \item \textbf{Problématique:} \emph{proof of concept}
-    \item première expérimentation: à petite échelle
-        \begin{itemize}
-          \item le groupe "PE" de 26 étudiants
-          \item constitution des équipes par les enseignants
-          \item 3 jours entre le S3 et le S4 (impact collègues)
-          \item sprint de 1h30 + 15mn démo + 15mn rétro
-          \item restitution et démo finale \emph{(plus sûr de ça !)}
-          \item rétrospective \textbf{très} enthousiaste des étudiants :)
-        \end{itemize}
-    \item \textbf{Objectif n+1}: généralisation à toute la promotion de S3 !
+    \item découvrir l'agilité et l'amélioration continue à travers un vrai projet : radiateur d'information, démo, rétro, PDCA
+    \item prototyper rapidement un produit web avec un serveur REST du JS, html et bootstrap.
+    \item prouver aux collègues que c'est possible pour le passer à plus grande échelle. 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{2013-2014 : Déroulement}
+  \begin{itemize}
+    \item 2 encadrants pour un groupe de TP (26 étudiants).
+    \item les étudiants s'organisent entre eux pour faire des équipes de 6 ou 7.
+    \item des sujets apportés par les étudiants
+    \item des contraintes technique forte
+    \item légo4scrum : 2h
+    \item sprint de 2h avec démo et rétro
+    \item soutenance en amphie avec démo
+    \item rétro de groupe sur l'activité
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{2013-2014 : Apprentissages}
+  \begin{itemize}
+    \item 1 enseignant pour 13 étudiants c'est très bien,
+    \item la généralisation à toute la promo est possible
+    \item plonger les étudiants dans un contexte technique innovant avec une bonne base théorique (ie. en fin d'IUT) c'est déstabilisant et très formateur. 
+    \item activité trop courte pour à la foi faire le backlog, le découper et le coder.
+  \end{itemize}
+\end{frame}
+
+%\begin{frame}{Année 1 (septembre 2013 à juillet 2014)}
+%  \begin{itemize}
+%    \item de 96h théoriques à XXh pour l'agilité ...
+%    \item \textbf{Problématique:} \emph{proof of concept}
+%    \item première expérimentation: à petite échelle
+%        \begin{itemize}
+%          \item le groupe "PE" de 26 étudiants
+%          \item constitution des équipes par les enseignants
+%          \item 3 jours entre le S3 et le S4 (impact collègues)
+%          \item sprint de 1h30 + 15mn démo + 15mn rétro
+%          \item restitution et démo finale \emph{(plus sûr de ça !)}
+%          \item rétrospective \textbf{très} enthousiaste des étudiants :)
+%        \end{itemize}
+%    \item \textbf{Objectif n+1}: généralisation à toute la promotion de S3 !
+%  \end{itemize}
+%\end{frame}
+
+\begin{frame}{Octobre 2014 : Objectifs}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \includegraphics[width=\textwidth]{includes/2014_S4_lego.jpg}      
+      \end{center}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      Fin de S4 décalé
+      \begin{itemize}
+        \item valider la faisabilité d'une soutenance sous forme de salon 
+        \item et l'adéquation avec la fin de formation
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Octobre 2014 : Déroulement }
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \includegraphics[width=\textwidth]{includes/2014_S4_dashboard.jpg}      
+      \end{center}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      la même recette qu'en S3 avec pour différence : 
+      \begin{itemize}
+        \item la soutenance se fait sous forme de salon dans une salle de TD
+        \item ça se passe en fin de S4
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{2014-2015 : Projet de semestre}
+  Toute la promo entre la fin du S3 et le début du S4 : 5 jours du lundi au vendredi, on vole une semaine de congés
+  2 équipes sont issue de la journée entrepreneur, 5 enseignants dont 3 non agiliste.
+
+  Objectifs : valider le passage à l'échelle, impliquer des collègues
+
+  Déroulement : la même recette qu'en S3 avec pour différence : 
+  \begin{itemize}
+    \item la même recette que l'année d'avant
+    \item la soutenance se fait sous forme de salon dans le centre de ressources
+    \item 90 étudiants
+    \item constitution des équipes par les enseignants
+    \item 2 équipes issues de la journée entreprenariat
+    \item un pitch investisseurs à mi-parcours
   \end{itemize}
 \end{frame}
 
@@ -160,6 +202,11 @@ Tribulations à l'Université d'un agiliste professionnel et de son compère ens
       \item \textbf{Objectif n+1}: mini-projet en début de S3 + projet agile final avant départ en stage !
   \end{itemize}
 \end{frame}
+
+\begin{frame}{2015 : Éxperiences}
+  Début de S3, S4 décallé avec 1 premier porteur de projet, puis toute la promo à la fin du S4, du mercredi au mercredi avec 6 porteurs de projets et les GEA europe, S3 décallé.
+\end{frame}
+
 
 \begin{frame}{Année 3 (septembre 2015 à juillet 2016)}
   \begin{itemize}
